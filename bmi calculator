@@ -1,0 +1,6 @@
+print("Welcome to BMI calculator")
+height_of_the_person = input("What's your height in meter?\n")
+weight_of_the_person = input("What's your weight in kg?\n")
+bmi = float(weight_of_the_person)/float(height_of_the_person)**2
+bmi_of_person = round(bmi)
+print("So your bmi is :" + str(bmi_of_person))
